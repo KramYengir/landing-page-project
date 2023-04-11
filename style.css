@@ -1,8 +1,8 @@
 .container{
     display: flex;
     flex-direction: column;
-    min-height: 100vh ;
-    padding: 8px;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 .header{
@@ -10,21 +10,29 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding: 5px 10px;
 }
 
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
+.header-links{
+    display: flex;
+}
 
-
+.header-links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0 10px;
+}
 
 
 
 /*-------------Elements-------------*/
-
-h1, h1{
-    padding: 0;
-    margin: 0;
-}
-
 img{
     max-width: 200px;
 }
