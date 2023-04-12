@@ -1,16 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 100vw;
+}
+
+.header, .hero, .footer{
+    background-color: #1F2937;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
-    padding: 5px 10px;
+    padding: 5px 80px;
 }
 
 .header-logo{
@@ -30,9 +36,44 @@
     margin: 0 10px;
 }
 
+.hero{
+    display: flex;
+    justify-content: center;
+    padding: 20px 80px 40px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    max-width: 500px;
+}
+
+
+.hero-text-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text-content{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.hero img{
+    max-width: 60%;
+}
+
 
 
 /*-------------Elements-------------*/
-img{
-    max-width: 200px;
+.info img{
+    max-width: 250px;
 }
