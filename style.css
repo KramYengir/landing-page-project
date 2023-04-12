@@ -39,15 +39,12 @@ body{
 .hero{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 40px 80px 40px;
 }
 
 .hero-text{
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
-    max-width: 500px;
 }
 
 
@@ -63,6 +60,10 @@ body{
     color: #E5E7EB;
 }
 
+.hero-text p{
+    max-width: 500px;
+}
+
 .hero button{
     max-width: 100px;
     padding: 10px;
@@ -75,13 +76,14 @@ body{
 
 .hero-image{
     display: flex;
-    justify-content: center;
-    flex-basis: 50%;
+    justify-content: space-around;
+    flex-basis: 40%;
 }
 
 .hero img{
     max-width: 60%;
     min-width: 20%;
+    border-radius: 30px;
 }
 
 .info{
@@ -110,6 +112,7 @@ body{
 .item img{
     width: 200px;
     height: 200px;
+    border-radius: 30px;
 }
 
 .item p{
