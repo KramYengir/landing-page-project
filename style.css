@@ -39,7 +39,8 @@ body{
 .hero{
     display: flex;
     justify-content: center;
-    padding: 20px 80px 40px;
+    flex-wrap: wrap;
+    padding: 40px 80px 40px;
 }
 
 .hero-text{
@@ -54,11 +55,22 @@ body{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .hero-text-content{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero button{
+    max-width: 100px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    border-radius: 10px;
 }
 
 .hero-image{
@@ -69,6 +81,7 @@ body{
 
 .hero img{
     max-width: 60%;
+    min-width: 20%;
 }
 
 
